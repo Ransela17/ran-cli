@@ -3,7 +3,7 @@ Ran CLI is simple interface that automates access to JFrog Artifactory
 
 ## How to Install
 1. `git clone `
-2. `pip install `
+2. `pip install .`
 3. execute 'ran' commands `ran` See [Examples](#Examples) section for commands to run.
 4. In the first command enter a username and password for jfrog platform
 
