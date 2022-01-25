@@ -1,11 +1,11 @@
 # Ran
-ran is a cli tool to bring together all my utilities into a centralised place.
-
+Ran CLI is simple interface that automates access to JFrog Artifactory
 
 ## How to Install
 1. `git clone `
 2. `pip install `
-3. `eve [cmd]` See [Examples](#Examples) section for commands to run.`
+3. execute 'ran' commands `ran` See [Examples](#Examples) section for commands to run.
+4. In the first command enter a username and password for jfrog platform
 
 ## Documentation for required libraries
 
@@ -15,6 +15,18 @@ ran is a cli tool to bring together all my utilities into a centralised place.
 - https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API
 
 ## Examples for 'ran' commands 
+
+Ran cli implement eight of the following APIs calls:
+
+● System Ping
+● System Version
+● Create User
+● Delete User
+● Get Storage Info
+● Create Repository
+● Update repository
+● List repositories
+
 
 ```commandline
 Usage: ran [OPTIONS] COMMAND [ARGS]...
