@@ -18,14 +18,14 @@ Ran CLI is simple interface that automates access to JFrog Artifactory
 
 Ran cli implement eight of the following APIs calls:
 
-● System Ping
-● System Version
-● Create User
-● Delete User
-● Get Storage Info
-● Create Repository
-● Update repository
-● List repositories
+- System Ping
+- System Version
+- Create User
+- Delete User
+- Get Storage Info
+- Create Repository
+- Update repository
+- List repositories
 
 
 ```commandline
@@ -52,6 +52,22 @@ Artifactory Version is: 7.31.10
 ```
 
 ```commandline
+$ ran users 
+      
+Usage: ran users [OPTIONS] COMMAND [ARGS]...
+
+  Several commands to make operations on Jfrog Artifactory users        
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  create  Creates a new user in Artifactory or replaces an existing user
+  delete  Removes an Artifactory user
+
+```
+
+```commandline
 $ ran users create --help
 
 Usage: ran users create [OPTIONS]
@@ -73,6 +89,23 @@ Options:
                                   [default: False]
   -g, --groups TEXT
   --help                          Show this message and exit.
+
+```
+
+```commandline
+$ ran repo --help
+
+Usage: ran repo [OPTIONS] COMMAND [ARGS]...
+
+  Several commands to make operations on Jfrog Artifacts repositories
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  create  Creates a local new repository in Artifactory with the provided...
+  list    Returns a list of minimal repository details for all...
+  update  Updates an local exiting repository configuration in...
 
 ```
 
