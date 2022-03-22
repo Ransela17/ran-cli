@@ -1,6 +1,6 @@
 click==8.0.3
 requests
-os=11.2
+os.path=11.2
 #configparser
 #json
 #getpass
